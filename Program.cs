@@ -45,13 +45,6 @@ namespace CSharpConsoleCalculator
                     break;
             }
         }
-
-        
-
-        
-
-        
-
         
         public static void Intro()
         {
@@ -63,8 +56,6 @@ namespace CSharpConsoleCalculator
         {
             Intro();
             Menu();
-
-
         }
     }
 }
