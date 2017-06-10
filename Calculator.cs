@@ -58,7 +58,6 @@ namespace CsharpConsoleCalculator
         public static void Multiplication()
         {
             List<int> intList = new List<int>();
-            var num = 1;
             Console.WriteLine("\nWelcome to the multiplication section\n");
             Console.WriteLine("Enter the first number you want to multiply");
             var input = Convert.ToInt32(Console.ReadLine());
