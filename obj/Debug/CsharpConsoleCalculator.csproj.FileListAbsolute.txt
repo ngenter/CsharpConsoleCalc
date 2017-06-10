@@ -1,0 +1,6 @@
+C:\dev\csharp\CsharpConsoleCalculator\CsharpConsoleCalculator\bin\Debug\CsharpConsoleCalculator.exe.config
+C:\dev\csharp\CsharpConsoleCalculator\CsharpConsoleCalculator\bin\Debug\CsharpConsoleCalculator.exe
+C:\dev\csharp\CsharpConsoleCalculator\CsharpConsoleCalculator\bin\Debug\CsharpConsoleCalculator.pdb
+C:\dev\csharp\CsharpConsoleCalculator\CsharpConsoleCalculator\obj\Debug\CsharpConsoleCalculator.csprojResolveAssemblyReference.cache
+C:\dev\csharp\CsharpConsoleCalculator\CsharpConsoleCalculator\obj\Debug\CsharpConsoleCalculator.exe
+C:\dev\csharp\CsharpConsoleCalculator\CsharpConsoleCalculator\obj\Debug\CsharpConsoleCalculator.pdb
