@@ -30,6 +30,7 @@ namespace CSharpConsoleCalculator
             switch (n)
             {
                 case 0:
+                    Console.WriteLine("\nExiting program...\n");
                     Environment.Exit(0);
                     break;
                 case 1:
