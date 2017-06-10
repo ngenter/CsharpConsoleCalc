@@ -82,5 +82,18 @@ namespace CsharpConsoleCalculator
 
             Program.Menu();
         }
+
+        public static void Modulus()
+        {
+            Console.WriteLine("\nthis is the modulus section\n");
+            Console.WriteLine("Enter the first number");
+            var input1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nEnter the second number");
+            var input2 = Convert.ToInt32(Console.ReadLine());
+            var modulus = (input1 % input2);
+            Console.WriteLine("Remainder is {0}\n", modulus);
+
+            Program.Menu();
+        }
     }
 }

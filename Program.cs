@@ -14,10 +14,12 @@ namespace CSharpConsoleCalculator
     {
         public static void Menu()
         {
+            Console.WriteLine("0 - Exit");
             Console.WriteLine("1 - Addition");
             Console.WriteLine("2 - Subtraction");
             Console.WriteLine("3 - Multiplication");
-            Console.WriteLine("4 - Division\n");
+            Console.WriteLine("4 - Division");
+            Console.WriteLine("5 - Modulus\n");
             var input = Convert.ToInt32(Console.ReadLine());
             Choice(input);
 
@@ -27,6 +29,9 @@ namespace CSharpConsoleCalculator
         {
             switch (n)
             {
+                case 0:
+                    Environment.Exit(0);
+                    break;
                 case 1:
                     Calculator.Addition();
                     break;
@@ -38,6 +43,9 @@ namespace CSharpConsoleCalculator
                     break;
                 case 4:
                     Calculator.Division();
+                    break;
+                case 5:
+                    Calculator.Modulus();
                     break;
                 default:
                     Console.WriteLine("Please enter a valid selection\n");
